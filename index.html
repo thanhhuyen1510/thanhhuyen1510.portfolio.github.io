@@ -1,0 +1,783 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+    <title>Thanh Huyền | Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <div class="floating-container"></div>
+    <nav>
+      <div class="nav-container">
+        <a
+          href="javascript:void(0)"
+          onclick="switchPage('home')"
+          class="logo"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+          ><span>Thanh Huyền</span></a
+        >
+        <div class="links">
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+          >
+            <a
+              href="javascript:void(0)"
+              onclick="switchPage('home')"
+              class="active-nav"
+              >Home</a
+            >
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            <a href="javascript:void(0)" onclick="switchPage('about')"
+              >About Me</a
+            >
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          >
+            <a href="javascript:void(0)" onclick="switchPage('experiences')"
+              >Experiences</a
+            >
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
+            <a href="javascript:void(0)" onclick="switchPage('projects')"
+              >Projects</a
+            >
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="500"
+          >
+            <a href="javascript:void(0)" onclick="switchPage('hobbies')"
+              >Hobbies</a
+            >
+          </div>
+          <div
+            class="link contact-btn"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="600"
+          >
+            <a href="javascript:void(0)" onclick="switchPage('contact')"
+              >Contact</a
+            >
+          </div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+      </div>
+      <div class="dropdown">
+        <div class="links">
+          <a
+            href="javascript:void(0)"
+            onclick="switchPage('home')"
+            class="active-nav"
+            >Home</a
+          >
+          <a href="javascript:void(0)" onclick="switchPage('about')"
+            >About Me</a
+          >
+          <a href="javascript:void(0)" onclick="switchPage('experiences')"
+            >Experiences</a
+          >
+          <a href="javascript:void(0)" onclick="switchPage('projects')"
+            >Projects</a
+          >
+          <a href="javascript:void(0)" onclick="switchPage('hobbies')"
+            >Hobbies</a
+          >
+          <a href="javascript:void(0)" onclick="switchPage('contact')"
+            >Contact</a
+          >
+          <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="page-section">
+      <div class="main-container">
+        <div
+          class="image profile-img"
+          data-aos="zoom-in-right"
+          data-aos-duration="2500"
+        >
+          <img src="images/th.jpg" alt="Thanh Huyền Profile Picture" />
+        </div>
+        <div class="content">
+          <h1
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-delay="800"
+          >
+            Hi, I'm <span>Thanh Huyền</span>
+          </h1>
+          <div
+            class="typewriter"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="900"
+          >
+            I'm a <span></span>
+          </div>
+          <p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000">
+            I am a cheerful and friendly person who enjoys connecting with people and building meaningful relationships. 
+            I love meeting new friends, sharing experiences, and learning from those around me. 
+            Currently, I am on a journey of self-discovery, exploring new opportunities, 
+            challenging myself, and continuously growing into a better version of who I am.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="page-section">
+      <div class="main-container">
+        <div
+          class="image profile-img"
+          data-aos="zoom-in-right"
+          data-aos-duration="2500"
+        >
+          <img src="images/about.jpg" alt="Thanh Huyền Profile Picture" />
+        </div>
+        <div class="content">
+          <h1
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-delay="800"
+          >
+            About <span>Me</span>
+          </h1>
+          <p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000">
+             <p><b>Major:</b> International Business Economics – Foreign Trade University (FTU)</p>
+                <div class="about-text">
+                    <p>• Vice Head of Specialized Department – Club of Technology in Economics (CTE FTU)</p>
+                    <p>• Member of Organizing Department – Entrepreneur Z Community (FIIS FTU)</p>
+                </div>
+                <p style="margin-top: 20px; font-style: italic; color: #cc788e;">
+                    “A bridge between traditional Economics and modern Technology, dedicated to fostering innovation and professional excellence within the student community.”
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experiences" class="page-section">
+     <div class="content" style="text-align: center; width: 100%; margin-bottom: 40px;">
+  <h1
+    data-aos="fade-up" 
+    data-aos-duration="1000"
+    data-aos-delay="800"
+    style="display: block; width: 100%;"
+  >
+    My <span>Experiences</span>
+  </h1>
+</div>
+      <div class="grid-container">
+        <!-- Card 1 -->
+<div class="card" data-aos="zoom-in" data-aos-delay="100">
+  <div class="img-box">
+    <img src="images/mo.jpg" alt="MƠ Project" />
+  </div>
+  <h3>Manager | MƠ Project</h3>
+  <p>Feel, heal and rise.</p>
+  <!-- Thay LINK_DU_AN_1 bằng link của bạn -->
+  <a href="https://www.facebook.com/profile.php?id=61574480348899" target="_blank" class="btn-link">View</a> 
+</div>
+
+<!-- Card 2 -->
+<div class="card" data-aos="zoom-in" data-aos-delay="200">
+  <div class="img-box">
+    <img src="images/dstc.jpg" alt="DSTC 2025" />
+  </div>
+  <h3>OC | DSTC 2025</h3>
+  <p>Facilitating a premier playground for data enthusiasts.</p>
+  <!-- Thay LINK_DU_AN_2 bằng link của bạn -->
+  <a href="LINK_DU_AN_2" target="_blank" class="btn-link">View</a>
+</div>
+
+<!-- Card 3 -->
+<div class="card" data-aos="zoom-in" data-aos-delay="300">
+  <div class="img-box">
+    <img src="images/summer.jpg" alt="Summer Data Bootcamp" />
+  </div>
+  <h3>OC | Summer Data Bootcamp</h3>
+  <p>Coordinating intensive technical training programs.</p>
+  <!-- Thay LINK_DU_AN_3 bằng link của bạn -->
+  <a href="LINK_DU_AN_3" target="_blank" class="btn-link">View</a>
+</div>
+
+<!-- Card 4 -->
+<div class="card" data-aos="zoom-in" data-aos-delay="400">
+  <div class="img-box">
+    <img src="images/sv.jpg" alt="SV Startup" />
+  </div>
+  <h3>OC | SV StartUp VII – FTU</h3>
+  <p>Supporting the flagship national entrepreneurship competition.</p>
+  <!-- Thay LINK_DU_AN_4 bằng link của bạn -->
+  <a href="LINK_DU_AN_4" target="_blank" class="btn-link">View</a>
+</div>
+
+<!-- Card 5 -->
+<div class="card" data-aos="zoom-in" data-aos-delay="500">
+  <div class="img-box">
+    <img src="images/inno.jpg" alt="InnoStart 2025" />
+  </div>
+  <h3>OC | InnoStart 2025</h3>
+  <p>Driving innovation and startup initiatives.</p>
+  <!-- Thay LINK_DU_AN_5 bằng link của bạn -->
+  <a href="LINK_DU_AN_5" target="_blank" class="btn-link">View</a>
+</div>
+
+<!-- Card 6 -->
+<div class="card" data-aos="zoom-in" data-aos-delay="600">
+  <div class="img-box">
+    <img src="images/ez.jpg" alt="Impact Camp" />
+  </div>
+  <h3>OC | Impact Camp 12</h3>
+  <p>Empowering the next generation of entrepreneurs.</p>
+  <!-- Thay LINK_DU_AN_6 bằng link của bạn -->
+  <a href="LINK_DU_AN_6" target="_blank" class="btn-link">View</a>
+</div>
+    </section>
+
+    <section id="projects" class="page-section">
+      <div class="main-container">
+        <div
+          class="image profile-img"
+          data-aos="zoom-in-right"
+          data-aos-duration="2500"
+        >
+          <img src="images/th3.jpg" alt="Thanh Huyền Profile Picture" />
+        </div>
+        <div class="content">
+          <h1
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-delay="800"
+          >
+            My <span>Projects</span>
+          </h1>
+          <p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000">
+           Here are some of the notable projects I've worked on. Each project was a stepping stone that helped me grow.
+          </p>
+        </div>
+      </div>
+    </section>
+
+  <section id="hobbies" class="page-section">
+      <!-- Tiêu đề căn giữa -->
+      <div class="content" style="text-align: center; width: 100%; margin-bottom: 40px;">
+        <h1 data-aos="fade-up" data-aos-duration="1000">My <span>Hobbies</span></h1>
+      </div>
+
+      <div class="grid-container">
+        <!-- Hobby 1: Mỹ thuật -->
+        <div class="card" data-aos="zoom-in" data-aos-delay="100">
+          <div class="img-box">
+            <img src="images/art.jpg" alt="Fine Arts" />
+          </div>
+          <h3>Fine Arts</h3>
+          <p>Expressing perspectives through colors and canvas.</p>
+        </div>
+
+        <!-- Hobby 2: Âm nhạc (Chuyển thành Video) -->
+<div class="card" data-aos="zoom-in" data-aos-delay="200">
+  <div class="img-box">
+    <!-- Thẻ video thay cho thẻ img -->
+    <video src="images/music.mp4" autoplay muted loop playsinline controls></video>
+  </div>
+  <h3>Vocal & Guitar</h3>
+  <p>Blending melody with discipline. A creative soul find inspiration in the arts.</p>
+</div>
+
+        <!-- Hobby 3: Đọc sách (Đã sửa từ Photography) -->
+        <div class="card" data-aos="zoom-in" data-aos-delay="300">
+          <div class="img-box">
+            <img src="images/book.jpg" alt="Reading" />
+          </div>
+          <h3>Books</h3>
+          <p>Discover new worlds through each page and find inspiration from meaningful stories.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="page-section">
+      <div class="main-container">
+        <div
+          class="image profile-img"
+          data-aos="zoom-in-right"
+          data-aos-duration="2500"
+        >
+          <img src="images/th2.jpg" alt="Thanh Huyền Profile Picture" />
+        </div>
+        <div class="content">
+          <h1
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-delay="800"
+          >
+            Kết nối với <span>Mình</span>
+          </h1>
+          <p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000">
+            Đừng ngại ngần theo dõi và kết nối với mình qua các nền tảng mạng xã
+            hội dưới đây nhé!
+          </p>
+          <div
+            class="social-links"
+            data-aos="flip-down"
+            data-aos-duration="1000"
+            data-aos-delay="1200"
+          >
+            <a href="https://github.com/thanhhuyen1510" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              href="https://www.facebook.com/thanh.huyen.671601"
+              target="_blank"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/thanh-huyền-a8598a336"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="https://www.tiktok.com/@th.truemilk.0150" target="_blank"
+              ><i class="fa-brands fa-tiktok"></i
+            ></a>
+            <a href="https://www.instagram.com/tit_hit._1510/" target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+          <div
+            class="btn"
+            data-aos="zoom-out-left"
+            data-aos-duration="1000"
+            data-aos-delay="1300"
+          >
+            <a href="images/cv.jpg" download="CV_ThanhHuyen.png">
+              <button>Download CV</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div
+      class="music-player"
+      data-aos="fade-up"
+      data-aos-delay="1500"
+      data-aos-duration="1000"
+    >
+      <div class="progress-container">
+        <span id="current-time">0:00</span>
+        <input
+          type="range"
+          id="progress-bar"
+          min="0"
+          max="100"
+          value="0"
+          oninput="seekMusic()"
+        />
+        <span id="total-time">0:00</span>
+      </div>
+
+      <div class="music-controls">
+        <button class="btn-nav-music" onclick="prevTrack()">
+          <i class="fa-solid fa-backward-step"></i>
+        </button>
+
+        <button id="play-pause-btn" onclick="toggleMusic()">
+          <i class="fa-solid fa-play"></i>
+        </button>
+
+        <button class="btn-nav-music" onclick="nextTrack()">
+          <i class="fa-solid fa-forward-step"></i>
+        </button>
+
+        <div class="volume-container">
+          <button id="mute-btn" onclick="toggleMute()">
+            <i class="fa-solid fa-volume-high" id="volume-icon"></i>
+          </button>
+          <input
+            type="range"
+            id="volume-slider"
+            min="0"
+            max="1"
+            step="0.01"
+            value="1"
+            oninput="changeVolume()"
+          />
+        </div>
+        <div class="custom-music-select" id="custom-music-select">
+          <div class="select-trigger" onclick="toggleDropdown()">
+            <div class="marquee-container trigger-marquee">
+              <span class="marquee-text" id="selected-track-name"
+                >💙 Blue - BOL4</span
+              >
+            </div>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="options-container" id="options-container">
+            <div
+              class="option active"
+              data-src="mp3/bluebol4.mp3"
+              onclick="selectTrack(this)"
+            >
+              <div class="marquee-container option-marquee">
+                <span class="marquee-text">💙 Blue - BOL4</span>
+              </div>
+            </div>
+            <div
+              class="option"
+              data-src="mp3/whatislovetwice.mp3"
+              onclick="selectTrack(this)"
+            >
+              <div class="marquee-container option-marquee">
+                <span class="marquee-text">💖 What is Love? - TWICE</span>
+              </div>
+            </div>
+            <div
+              class="option"
+              data-src="mp3/loinho.mp3"
+              onclick="selectTrack(this)"
+            >
+              <div class="marquee-container option-marquee">
+                <span class="marquee-text">🎵 Lối Nhỏ - Đen</span>
+              </div>
+            </div>
+            <div
+              class="option"
+              data-src="mp3/emdungkhoc.mp3"
+              onclick="selectTrack(this)"
+            >
+              <div class="marquee-container option-marquee">
+                <span class="marquee-text">🎸 Em đừng khóc - Chillies</span>
+              </div>
+            </div>
+            <div
+              class="option"
+              data-src="mp3/muonroimsc.mp3"
+              onclick="selectTrack(this)"
+            >
+              <div class="marquee-container option-marquee">
+                <span class="marquee-text"
+                  >🎹 Muộn rồi mà sao còn - Sơn Tùng MTP</span
+                >
+              </div>
+            </div>
+            <div
+              class="option"
+              data-src="mp3/hurt.mp3"
+              onclick="selectTrack(this)"
+            >
+              <div class="marquee-container option-marquee">
+                <span class="marquee-text">🎧 Hurt - NewJeans</span>
+              </div>
+            </div>
+            <div
+              class="option"
+              data-src="mp3/taimuihong.mp3"
+              onclick="selectTrack(this)"
+            >
+              <div class="marquee-container option-marquee">
+                <span class="marquee-text">🎤 Eyes, Nose, Lips - Taeyang</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <audio id="bg-music" preload="metadata">
+        <source src="mp3/bluebol4.mp3" type="audio/mpeg" />
+      </audio>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ offset: 0 });
+    </script>
+    <script>
+      function hamburg() {
+        document.querySelector(".dropdown").style.transform = "translateY(0px)";
+      }
+      function cancel() {
+        document.querySelector(".dropdown").style.transform =
+          "translateY(-500px)";
+      }
+      function createFloatingIcon() {
+        const icon = document.createElement("i");
+        const icons = [
+          "fa-heart",
+          "fa-star",
+          "fa-seedling",
+          "fa-fan",
+          "fa-spa",
+          "fa-cat",
+          "fa-ice-cream",
+          "fa-moon",
+          "fa-music",
+          "fa-crown",
+          "fa-gem",
+        ];
+        icon.classList.add(
+          "fa-solid",
+          icons[Math.floor(Math.random() * icons.length)],
+          "floating-icon",
+        );
+        icon.style.left = Math.random() * 95 + "vw";
+        icon.style.animationDuration = Math.random() * 5 + 6 + "s";
+        icon.style.opacity = Math.random() * 0.4 + 0.1;
+        icon.style.fontSize = Math.random() * 15 + 10 + "px";
+        const container = document.querySelector(".floating-container");
+        if (container) container.appendChild(icon);
+        setTimeout(() => icon.remove(), 11000);
+      }
+      setInterval(createFloatingIcon, 800);
+      function switchPage(pageId, updateUrl = true) {
+        const pageTitles = {
+          home: "Thanh Huyền | Home",
+          about: "Thanh Huyền | About Me",
+          experiences: "Thanh Huyền | Experiences",
+          projects: "Thanh Huyền | Projects",
+          hobbies: "Thanh Huyền | Hobbies",
+          contact: "Thanh Huyền | Contact",
+        };
+        if (pageTitles[pageId]) {
+          document.title = pageTitles[pageId];
+        }
+        document.body.classList.add("no-transition");
+        document.querySelectorAll(".page-section").forEach((sec) => {
+          sec.style.display = "none";
+        });
+        const targetSec = document.getElementById(pageId);
+        if (targetSec) {
+          targetSec.style.display = "block";
+        }
+        if (updateUrl) {
+          window.history.pushState(null, null, "#" + pageId);
+        }
+        document
+          .querySelectorAll("nav a")
+          .forEach((link) => link.classList.remove("active-nav"));
+        document
+          .querySelectorAll(`a[onclick="switchPage('${pageId}')"]`)
+          .forEach((link) => {
+            if (!link.classList.contains("logo")) {
+              link.classList.add("active-nav");
+            }
+          });
+        cancel();
+        const elementsToAnimate = [
+          ...document.querySelectorAll("nav [data-aos]"),
+          document.querySelector(".music-player"),
+          ...(targetSec ? targetSec.querySelectorAll("[data-aos]") : []),
+        ].filter(Boolean);
+        elementsToAnimate.forEach((el) => {
+          el.classList.remove("aos-animate");
+        });
+        void document.body.offsetWidth;
+        document.body.classList.remove("no-transition");
+        setTimeout(() => {
+          elementsToAnimate.forEach((el) => el.classList.add("aos-animate"));
+        }, 50);
+      }
+
+      window.addEventListener("load", () => {
+        applyMarquee();
+        let hash = window.location.hash.substring(1);
+        if (hash && document.getElementById(hash)) {
+          switchPage(hash, false);
+        } else {
+          switchPage("home", false);
+        }
+      });
+
+      window.addEventListener("popstate", () => {
+        let hash = window.location.hash.substring(1);
+        if (hash && document.getElementById(hash)) {
+          switchPage(hash, false);
+        } else {
+          switchPage("home", false);
+        }
+      });
+
+      const music = document.getElementById("bg-music");
+      const playPauseBtn = document.getElementById("play-pause-btn");
+      const volumeSlider = document.getElementById("volume-slider");
+      const volumeIcon = document.getElementById("volume-icon");
+      let currentVolume = 1;
+      const customSelect = document.getElementById("custom-music-select");
+      const selectedTrackName = document.getElementById("selected-track-name");
+      const options = document.querySelectorAll(".option");
+
+      const progressBar = document.getElementById("progress-bar");
+      const currentTimeEl = document.getElementById("current-time");
+      const totalTimeEl = document.getElementById("total-time");
+
+      function formatTime(seconds) {
+        if (isNaN(seconds) || !isFinite(seconds)) return "0:00";
+        let min = Math.floor(seconds / 60);
+        let sec = Math.floor(seconds % 60);
+        if (sec < 10) sec = "0" + sec;
+        return `${min}:${sec}`;
+      }
+
+      music.addEventListener("timeupdate", () => {
+        if (music.duration) {
+          progressBar.value = (music.currentTime / music.duration) * 100;
+          currentTimeEl.innerText = formatTime(music.currentTime);
+        }
+      });
+
+      music.addEventListener("loadedmetadata", () => {
+        totalTimeEl.innerText = formatTime(music.duration);
+      });
+
+      if (music.readyState >= 1) {
+        totalTimeEl.innerText = formatTime(music.duration);
+      }
+
+      function seekMusic() {
+        let seekTime = (progressBar.value / 100) * music.duration;
+        music.currentTime = seekTime;
+      }
+
+      function applyMarquee() {
+        const containers = document.querySelectorAll(".marquee-container");
+        containers.forEach((container) => {
+          const textElement = container.querySelector(".marquee-text");
+
+          if (!textElement.hasAttribute("data-original-text")) {
+            textElement.setAttribute(
+              "data-original-text",
+              textElement.innerText,
+            );
+          }
+          const originalText = textElement.getAttribute("data-original-text");
+
+          textElement.classList.remove("scrolling");
+          textElement.style.animation = "none";
+          textElement.innerHTML = originalText;
+
+          if (textElement.scrollWidth > container.clientWidth) {
+            const gap =
+              "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+            textElement.innerHTML = `<span>${originalText}${gap}</span><span>${originalText}${gap}</span>`;
+
+            requestAnimationFrame(() => {
+              textElement.classList.add("scrolling");
+              const scrollSpeed = 50;
+              const duration = textElement.scrollWidth / 2 / scrollSpeed;
+              textElement.style.animationDuration = `${duration}s`;
+              textElement.style.animationName = "marqueeAnim";
+            });
+          }
+        });
+      }
+      window.addEventListener("resize", applyMarquee);
+
+      function toggleDropdown() {
+        customSelect.classList.toggle("open");
+        applyMarquee();
+      }
+      document.addEventListener("click", function (event) {
+        if (!customSelect.contains(event.target))
+          customSelect.classList.remove("open");
+      });
+
+      function selectTrack(element) {
+        options.forEach((opt) => opt.classList.remove("active"));
+        element.classList.add("active");
+        const originalText = element
+          .querySelector(".marquee-text")
+          .getAttribute("data-original-text");
+        selectedTrackName.innerText = originalText;
+        selectedTrackName.setAttribute("data-original-text", originalText);
+
+        music.src = element.getAttribute("data-src");
+        progressBar.value = 0;
+        currentTimeEl.innerText = "0:00";
+
+        music.play();
+
+        customSelect.classList.remove("open");
+        applyMarquee();
+      }
+
+      function nextTrack() {
+        let currentIndex = -1;
+        options.forEach((opt, index) => {
+          if (opt.classList.contains("active")) currentIndex = index;
+        });
+        currentIndex++;
+        if (currentIndex >= options.length) currentIndex = 0;
+        selectTrack(options[currentIndex]);
+      }
+
+      function prevTrack() {
+        let currentIndex = -1;
+        options.forEach((opt, index) => {
+          if (opt.classList.contains("active")) currentIndex = index;
+        });
+        currentIndex--;
+        if (currentIndex < 0) currentIndex = options.length - 1;
+        selectTrack(options[currentIndex]);
+      }
+
+      music.onpause = () =>
+        (playPauseBtn.innerHTML = '<i class="fa-solid fa-play"></i>');
+      music.onplay = () =>
+        (playPauseBtn.innerHTML = '<i class="fa-solid fa-pause"></i>');
+
+      music.onended = function () {
+        nextTrack();
+      };
+
+      function toggleMusic() {
+        if (music.paused) music.play();
+        else music.pause();
+      }
+      function changeVolume() {
+        music.volume = volumeSlider.value;
+        updateVolumeIcon(music.volume);
+      }
+      function toggleMute() {
+        if (music.volume > 0) {
+          currentVolume = music.volume;
+          music.volume = 0;
+          volumeSlider.value = 0;
+        } else {
+          music.volume = currentVolume > 0 ? currentVolume : 1;
+          volumeSlider.value = music.volume;
+        }
+        updateVolumeIcon(music.volume);
+      }
+      function updateVolumeIcon(vol) {
+        if (vol == 0) volumeIcon.className = "fa-solid fa-volume-xmark";
+        else if (vol < 0.5) volumeIcon.className = "fa-solid fa-volume-low";
+        else volumeIcon.className = "fa-solid fa-volume-high";
+      }
+    </script>
+  </body>
+</html>
